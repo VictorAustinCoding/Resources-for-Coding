@@ -1,0 +1,43 @@
+* {
+    font-family: monospace;
+    font-size: 105%;
+}
+
+body {
+    background-color: #CBFFF6;
+    overflow-y: auto;
+}
+
+nav {
+    background-color: #FFFCC1;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: bolder;
+    color: violet;
+}
+
+ul {
+    list-style: none;
+    background-color: #FFFCC1;
+}
+
+p {
+    font-size: larger;
+    margin: 100px 400px;
+    background-color: #FFFCC1;
+    padding: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 100px;
+    text-decoration: underline;
+    color: violet;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+}
