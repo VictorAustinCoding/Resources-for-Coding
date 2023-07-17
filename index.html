@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Resource Hub</title>
     <link href="style.css" rel="stylesheet"/>
+
 </head>
 <body>
     <header>
@@ -14,7 +15,9 @@
                 <li><a href="#secondLink">OPCOLLEGE Links</a></li>
             </ul>
         </nav>
-    <h1>Victor's Coding Resource Hub</h1>
+            <div class="headerImage">
+                <h1>Victor's Coding Resource Hub</h1>
+            </div>
     </header>
     <main>
         <article>
@@ -27,10 +30,11 @@
                     next section.
                 </p>
             </section>
-            <section>
-                <ul>
-                    <li><a href="chrome-extension://bdfcnmeidppjeaggnmidamkiddifkdib/viewer.html?file=https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">HTML Cheat Sheet</a></li>
-                    <li><a href="chrome-extension://bdfcnmeidppjeaggnmidamkiddifkdib/viewer.html?file=https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf" target="_blank">CSS Cheat Sheet</a></li>
+            <section class="container">
+                <button id="toggleButton">Click to show resources!</button>
+                <ul class="linksStyle hidden"> 
+                    <li><a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" target="_blank">HTML Cheat Sheet</a></li>
+                    <li><a href="https://web.stanford.edu/group/csp/cs21/csscheatsheet.pdf" target="_blank">CSS Cheat Sheet</a></li>
                     <li><a href="https://htmlcolorcodes.com/color-picker/" target="_blank">HTML/CSS Color Picker</a></li>
                     <li><a href="https://validator.w3.org/#validate_by_input" target="_blank">Markup Validation Service</a></li>
                     <li><a href="https://developer.mozilla.org/en-US/" target="_blank">Lookup Directory</a></li>
@@ -45,8 +49,9 @@
                     of for better convenience.
                 </p>
             </section>
-            <section>
-                <ul>
+            <section class="containerTwo">
+                <button id="toggleButton2">Click to show resources!</button>
+                <ul class="linksStyle2 hidden">
                     <li>
                         <li><a href="https://us06web.zoom.us/j/84218948613" target="_blank">OPCOLLEGE Zoom Link</a></li>
                         <li><a href="https://oc.instructure.com/login/canvas" target="_blank">Canvas</a></li>
@@ -60,5 +65,6 @@
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
